@@ -133,8 +133,8 @@ jobs:
   #                              same value.
   - name: PlottingAway
     max_plots: 100
-    farmer_public_key: REPLACE
-    pool_public_key: REPLACE
+    farmer_public_key: REPLACE_FARMERKEY
+    pool_public_key: REPLACE_POOLKEY
     temporary_directory: /mnt/ssd
     temporary2_directory:
     destination_directory: /mnt/plots
