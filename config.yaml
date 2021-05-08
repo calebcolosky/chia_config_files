@@ -140,9 +140,9 @@ jobs:
     destination_directory: /mnt/plots
     size: 32
     bitfield: true
-    threads: 24
+    threads: 2
     buckets: 128
-    memory_buffer: 5000
+    memory_buffer: 2000
     max_concurrent: 18
     max_concurrent_with_start_early: 17
     stagger_minutes: 60
